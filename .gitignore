@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Node & Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Database & Uploads
+data/hrportal.db
+data/uploads/*
+!data/uploads/.gitkeep
+data/backups/*
+!data/backups/.gitkeep
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# OS generated
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
